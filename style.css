@@ -118,7 +118,7 @@ h2{
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) and (orientation: portrait) { 
     	.nav-table, .nav-table tbody, .nav-table tr, .nav-table tr td {
             display: block;
             text-align: center;
@@ -130,9 +130,29 @@ h2{
             margin: 2% 25% 3% 25%;
         }
 }
- @media (max-width: 575.98px) {
+ @media (max-width: 575.98px) and (orientation: portrait) {
     .img{
          width: 200px;
+     }
+    .button{
+        margin: 2% 15% 3% 15%;
+        font-size: 20px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
+@media (max-width: 991.98px) and (orientation: landscape) {
+        .img{
+            width: 150px;
+        }
+        .button{
+            margin: 2% 25% 3% 25%;
+        }
+}
+ @media (max-width: 575.98px) and (orientation: landscape) {
+    .img{
+         width: 100px;
      }
     .button{
         margin: 2% 15% 3% 15%;
