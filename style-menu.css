@@ -83,3 +83,12 @@
 .gras{
     font-weight: bold;
 }
+.legal{
+    width: 60%;
+    font-family: 'Cambria', Tahoma, Geneva, Verdana, sans-serif;
+}
+.legal p{
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
