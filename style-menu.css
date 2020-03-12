@@ -1,0 +1,85 @@
+.menu
+{
+    font-family: 'Segoe Print', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 8%;
+    text-align: center;
+    box-shadow: 0px 0px 15px darkgray;
+}
+.menu img{
+    max-width: 80%;
+    height: auto;
+}
+.menu table
+{
+    margin: auto;
+    border-spacing: 100px 30px;
+    margin-bottom: 5%;
+}
+.menu table tr td{
+    font-size: 20px;
+    text-align: left;
+}
+.menu .logo{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.subline{
+    color: black;
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+.subline:hover{
+    background-size: 100% 100%;
+}
+
+.menu-1{
+    background: #FCDFDB;
+}
+.menu-2{
+    background: #FFF5FE;
+    font-family: 'Cambria', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-3{
+    background: #EDEFEF;
+}
+.menu-4{
+    background: #FDFFFD;
+}
+.filter-1{
+    filter: invert(40%) sepia(98%) saturate(1599%) hue-rotate(15deg) brightness(97%) contrast(86%);
+}
+.filter-2{
+    filter: invert(52%) sepia(12%) saturate(1554%) hue-rotate(260deg) brightness(87%) contrast(84%);
+}
+.filter-3{
+    filter: invert(40%) sepia(18%) saturate(4277%) hue-rotate(230deg) brightness(81%) contrast(97%);
+}
+.filter-4{
+    filter: invert(15%) sepia(100%) saturate(3422%) hue-rotate(232deg) brightness(87%) contrast(122%);
+}
+.filter-5{
+    filter: invert(39%) sepia(75%) saturate(6013%) hue-rotate(204deg) brightness(99%) contrast(96%);
+}
+.filter-6{
+    filter: invert(57%) sepia(20%) saturate(7174%) hue-rotate(181deg) brightness(97%) contrast(101%);
+}
+
+.color-orange{
+    color: #C67412;
+}
+.color-purple{
+    color: #A56799;
+}
+.color-dark-purple{
+    color: #6E4CCC;
+}
+
+.space{
+    height: 10px;
+    padding: 5%;
+}
+.gras{
+    font-weight: bold;
+}

@@ -1,0 +1,140 @@
+body{
+    margin: auto;
+}
+header{
+    background-color: #579C87;
+    color: #FDCB46;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    padding: 2%;
+}
+a{
+    color: #FDCB46;
+    text-decoration: none;
+}
+section{
+    text-align: center;
+}
+footer{
+    background-color: #579C87;
+    color: #FDCB46;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    font-size: 32px;
+}
+
+h2{
+    font-size: 52px;
+}
+
+.img{
+    width: 300px;
+    box-shadow: 0px 0px 10px darkgray;
+    transition-duration: 1s;
+}
+.img:hover{
+    transform: scale(1.1);
+    opacity: 0.3;
+    transition-property: transform, opacity;
+    transition-duration: 1s;
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.nav-table{
+    margin: auto;
+}
+.nav-table tr td
+{
+    padding: 30px;
+}
+.button{
+    background-color: #579C87;
+    color: #FDCB46;
+    margin: 2% 40% 3% 40%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-radius: 7px;
+    font-size: 32px;
+}
+@keyframes point {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  25% { transform: translate(0px, -5px) rotate(0deg); }
+  50% { transform: translate(0px, 0px) rotate(0deg); }
+  75% { transform: translate(0px, -5px) rotate(0deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+.points{
+    height: 18px;
+    width: 46px;
+    vertical-align: middle;
+}
+.circle{
+    vertical-align: middle;
+    filter: invert(73%) sepia(83%) saturate(389%) hue-rotate(347deg) brightness(102%) contrast(98%);
+    width: 10px;
+    animation: point 1.5s backwards infinite;
+    animation-direction: alternate;
+}
+.circle:nth-child(1) { 
+  animation-delay: 0.25s;
+}
+
+.circle:nth-child(2) { 
+  animation-delay: 0.5s;
+}
+
+.circle:nth-child(3) { 
+  animation-delay: 0.75s;
+}
+
+
+.footer-table{
+    padding: 2%;
+}
+.footer-table tr td{
+    width: 1%;
+}
+.footer-table tr td:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media (max-width: 991.98px) { 
+    	.nav-table, .nav-table tbody, .nav-table tr, .nav-table tr td {
+            display: block;
+            text-align: center;
+        }
+        .img{
+            width: 400px;
+        }
+        .button{
+            margin: 2% 25% 3% 25%;
+        }
+}
+ @media (max-width: 575.98px) {
+    .img{
+         width: 200px;
+     }
+    .button{
+        margin: 2% 15% 3% 15%;
+    }
+}
