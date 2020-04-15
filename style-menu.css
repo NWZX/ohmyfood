@@ -15,6 +15,37 @@ h3{
     max-width: 80%;
     height: auto;
 }
+.menu ul
+{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li
+{
+    margin-top: 3%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.menu ul li article
+{
+    margin: auto;
+    margin-right: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: left;
+}
+.menu ul li aside
+{
+margin: auto;
+margin-left: 0;
+    -ms-flex: 0 0 5%;
+    flex: 0 0 5%;
+    max-width: 5%;
+}
 .menu table
 {
     margin: auto;
@@ -38,6 +69,7 @@ h3{
     background-size: 100% 100%;
 }
 
+
 .menu-1{
     background: #FCDFDB;
 }
@@ -51,6 +83,7 @@ h3{
 .menu-4{
     background: #FDFFFD;
 }
+
 .filter-1{
     filter: invert(40%) sepia(98%) saturate(1599%) hue-rotate(15deg) brightness(97%) contrast(86%);
 }
@@ -95,4 +128,21 @@ h3{
     padding: 2%;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+.menu
+{
+    width: 100%;
+    margin-bottom: 8%;
+    box-shadow: 0px 0px 15px darkgray;
+}
+}
+@media (max-width: 991.98px) and (orientation: portrait) {
+.menu
+{
+    width: 100%;
+    margin-bottom: 8%;
+    box-shadow: 0px 0px 15px darkgray;
+}
 }
