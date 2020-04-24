@@ -39,13 +39,6 @@ h1{
     margin: 0;
     padding: 2%;
 }
-h2{
-    font-size: 50px;
-}
-h4{
-    display: inline;
-    font-weight: unset;
-}
 a{
     color: #FDCB46;
     text-decoration: none;
@@ -53,20 +46,40 @@ a{
 
 /* Image Part */
 
-.img{
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
     width: 300px;
+    margin: 30px;
     box-shadow: 0px 0px 10px darkgray;
-    transition-duration: 1s;
 }
-.img:hover{
-    transform: scale(1.1);
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.2);
     opacity: 0.3;
-    transition-property: transform, opacity;
-    transition-duration: 1s;
 }
 .img-responsive{
     max-width: 100%;
     height: auto;
+}
+.flex-menu{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 74%;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Menu */
@@ -76,6 +89,10 @@ a{
 .nav-table tr td
 {
     padding: 30px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 540px;
 }
 
 /* Button & Button animation */
@@ -162,16 +179,10 @@ a{
             padding: 1%;
             font-size: 46px;
         }
-        h2{
-            font-size: 33px;
-        }
 }
  @media (max-width: 575.98px) and (orientation: portrait) {
      h1{
          font-size: 35px;
-     }
-     h2{
-         font-size: 25px;
      }
     .img{
          width: 200px;
@@ -199,9 +210,6 @@ a{
             padding: 1%;
             font-size: 46px;
         }
-        h2{
-            font-size: 33px;
-        }
         footer{
             font-size: 20px;
         }
@@ -212,9 +220,6 @@ a{
  @media (max-width: 575.98px) and (orientation: landscape) {
     h1{
          font-size: 35px;
-     }
-    h2{
-         font-size: 25px;
      }
     .img{
          width: 100px;

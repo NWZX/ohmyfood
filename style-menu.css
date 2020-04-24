@@ -1,3 +1,100 @@
+@font-face {
+    font-family: 'Avelana-Bold';
+    src:url('res/avelana/AvelanaBold_PERSONAL.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+}
+@font-face {
+    font-family: 'Venturis';
+    src:url('res/Venturis/VenturisSansADF-Bold.otf'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+}
+@font-face {font-family: "Rusulica";
+  src: url("res/Rusulica/7459d1ee3ebb6019ea9a2ae96d215e80.eot"); /* IE9*/
+  src: url("res/Rusulica/7459d1ee3ebb6019ea9a2ae96d215e80.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("res/Rusulica/7459d1ee3ebb6019ea9a2ae96d215e80.woff2") format("woff2"), /* chrome、firefox */
+  url("res/Rusulica/7459d1ee3ebb6019ea9a2ae96d215e80.woff") format("woff"), /* chrome、firefox */
+  url("res/Rusulica/7459d1ee3ebb6019ea9a2ae96d215e80.svg#Rusulica Script Antique W00 Rg") format("svg"), /* iOS 4.1- */
+  url("res/Rusulica/7459d1ee3ebb6019ea9a2ae96d215e80.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+}
+@font-face {
+    font-family: 'Breesh';
+    src:url('res/Breesh/Breesh\ Light.otf'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+}
+
+h2{
+    font-size: 50px;
+}
+.title
+{
+    display: inline-block;
+    font-size: 80px;
+    margin-top: 10%;
+}
+.title-1{
+    font-family: 'Avelana-Bold';
+    color: #3D1319;
+    font-size: 80px;
+    margin-top: 0;
+}
+.title-1-2{
+    font-family: 'Avelana-Bold';
+    color: #3D1319;
+    font-size: 60px;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+.icon-title{
+    font-size: 160px;
+    background: -webkit-gradient(linear, right top, left top, from(#F6916A), to(#F04E5F));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon-footer{
+    font-size: 75px;
+    background: -webkit-gradient(linear, right top, left top, from(#F6916A), to(#F04E5F));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-2{
+    font-family: 'Venturis';
+    background: -webkit-gradient(linear, right top, left bottom, from(#8F5BFE), to(#E38913));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title-3{
+    font-family: 'Rusulica';
+    background: -webkit-gradient(linear, right top, left bottom, from(#0889FB), to(#001ED9));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title-4{
+    font-family: 'Breesh';
+    background: -webkit-gradient(linear, right top, left bottom, from(#BEFF7F), to(#3D923A));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h4{
+    display: inline;
+    font-weight: unset;
+}
+
+
 /* Menu */
 .menu
 {
@@ -39,9 +136,8 @@ margin-left: 0;
     flex: 0 0 5%;
     max-width: 5%;
 }
-.menu .logo{
-    margin-top: 10%;
-    margin-bottom: 5%;
+.logo{
+    
 }
 
 /* Menu variaion */
@@ -138,6 +234,9 @@ h3{
 
 /* Responsive Management */
 @media (max-width: 991.98px) and (orientation: landscape) {
+h2{
+    font-size: 33px;
+}
 .menu
 {
     width: 100%;
@@ -162,6 +261,9 @@ h3{
 }
 }
 @media (max-width: 991.98px) and (orientation: portrait) {
+h2{
+    font-size: 33px;
+}
 .menu table
 {
     margin: auto;
