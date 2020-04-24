@@ -34,13 +34,13 @@ footer{
 
 h1{
     font-family: 'Archivo-Bold';
-    font-size: 103px;
+    font-size: 70px;
 
     margin: 0;
     padding: 2%;
 }
 h2{
-    font-size: 52px;
+    font-size: 50px;
 }
 a{
     color: #FDCB46;
@@ -118,7 +118,7 @@ a{
 /* Footer & footer link animation */
 
 .footer-table{
-    padding: 2%;
+    padding: 1%;
 }
 .footer-table tr td{
     width: 1%;
@@ -154,10 +154,20 @@ a{
         .button{
             margin: 2% 25% 3% 25%;
         }
+        h1{
+            padding: 1%;
+            font-size: 46px;
+        }
+        h2{
+            font-size: 33px;
+        }
 }
  @media (max-width: 575.98px) and (orientation: portrait) {
      h1{
-         font-size: 51px;
+         font-size: 35px;
+     }
+     h2{
+         font-size: 25px;
      }
     .img{
          width: 200px;
@@ -181,8 +191,12 @@ a{
             max-width: 20%;
             height: auto;
         }
-        header h1{
+        h1{
             padding: 1%;
+            font-size: 46px;
+        }
+        h2{
+            font-size: 33px;
         }
         footer{
             font-size: 20px;
@@ -193,7 +207,10 @@ a{
 }
  @media (max-width: 575.98px) and (orientation: landscape) {
     h1{
-         font-size: 51px;
+         font-size: 35px;
+     }
+    h2{
+         font-size: 25px;
      }
     .img{
          width: 100px;
