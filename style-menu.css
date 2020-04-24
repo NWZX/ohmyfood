@@ -20,9 +20,7 @@
 .menu ul li
 {
     margin-top: 3%;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     font-size: 20px;
 }
@@ -30,7 +28,6 @@
 {
     margin: auto;
     margin-right: 0;
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
     text-align: left;
@@ -39,7 +36,6 @@
 {
 margin: auto;
 margin-left: 0;
-    -ms-flex: 0 0 5%;
     flex: 0 0 5%;
     max-width: 5%;
 }
@@ -146,7 +142,7 @@ h3{
 {
     width: 100%;
     margin-bottom: 8%;
-    box-shadow: 0px;
+    box-shadow: none;
 }
 .menu table
 {
@@ -180,7 +176,7 @@ h3{
 {
     width: 100%;
     margin-bottom: 8%;
-    box-shadow: 0px;
+    box-shadow: none;
 }
 .s-title-flex div:nth-of-type(1){
     margin-right: 0%;
