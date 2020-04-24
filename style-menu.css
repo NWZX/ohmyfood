@@ -1,7 +1,4 @@
-h3{
-    text-align: center;
-}
-
+/* Menu */
 .menu
 {
     font-family: 'Segoe Print', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,30 +43,12 @@ margin-left: 0;
     flex: 0 0 5%;
     max-width: 5%;
 }
-.menu table
-{
-    margin: auto;
-    border-spacing: 100px 30px;
-    margin-bottom: 5%;
-}
-.menu table tr td{
-    font-size: 20px;
-    text-align: left;
-}
 .menu .logo{
     margin-top: 10%;
     margin-bottom: 5%;
 }
-.subline{
-    color: black;
-    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-    transition: background-size .5s;
-}
-.subline:hover{
-    background-size: 100% 100%;
-}
 
-
+/* Menu variaion */
 .menu-1{
     background: #FCDFDB;
 }
@@ -84,6 +63,18 @@ margin-left: 0;
     background: #FDFFFD;
 }
 
+/* Subline of subtitle */
+.subline{
+    color: black;
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+.subline:hover{
+    background-size: 100% 100%;
+}
+
+
+/* Color filter */
 .filter-1{
     filter: invert(40%) sepia(98%) saturate(1599%) hue-rotate(15deg) brightness(97%) contrast(86%);
 }
@@ -120,6 +111,8 @@ margin-left: 0;
 .gras{
     font-weight: bold;
 }
+
+/* Legal notice */
 .legal{
     width: 60%;
     font-family: 'Cambria', Tahoma, Geneva, Verdana, sans-serif;
@@ -128,6 +121,11 @@ margin-left: 0;
     padding: 2%;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+/* Sub Title (h3)*/
+h3{
+    text-align: center;
 }
 .s-title-flex{
     display: flex;
@@ -142,6 +140,7 @@ margin-left: 0;
     margin-left: 8%;
 }
 
+/* Responsive Management */
 @media (max-width: 991.98px) and (orientation: landscape) {
 .menu
 {

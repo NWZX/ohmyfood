@@ -9,6 +9,7 @@
     font-display:swap;
 }
 
+/* Main element */
 body{
     margin: auto;
 }
@@ -16,10 +17,6 @@ header{
     background-color: #579C87;
     color: #FDCB46;
     text-align: center;
-}
-a{
-    color: #FDCB46;
-    text-decoration: none;
 }
 section{
     text-align: center;
@@ -33,6 +30,8 @@ footer{
     font-size: 32px;
 }
 
+/* Title Part*/
+
 h1{
     font-family: 'Archivo-Bold';
     font-size: 103px;
@@ -43,6 +42,12 @@ h1{
 h2{
     font-size: 52px;
 }
+a{
+    color: #FDCB46;
+    text-decoration: none;
+}
+
+/* Image Part */
 
 .img{
     width: 300px;
@@ -59,6 +64,8 @@ h2{
     max-width: 100%;
     height: auto;
 }
+
+/* Menu */
 .nav-table{
     margin: auto;
 }
@@ -66,6 +73,8 @@ h2{
 {
     padding: 30px;
 }
+
+/* Button & Button animation */
 .button{
     background-color: #579C87;
     color: #FDCB46;
@@ -106,6 +115,7 @@ h2{
   animation-delay: 0.75s;
 }
 
+/* Footer & footer link animation */
 
 .footer-table{
     padding: 2%;
@@ -132,6 +142,7 @@ h2{
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+/* Responsive Management */
 @media (max-width: 991.98px) and (orientation: portrait) { 
     	.nav-table, .nav-table tbody, .nav-table tr, .nav-table tr td {
             display: block;
