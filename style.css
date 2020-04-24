@@ -156,6 +156,9 @@ a{
         }
 }
  @media (max-width: 575.98px) and (orientation: portrait) {
+     h1{
+         font-size: 51px;
+     }
     .img{
          width: 200px;
      }
@@ -189,6 +192,9 @@ a{
         }
 }
  @media (max-width: 575.98px) and (orientation: landscape) {
+    h1{
+         font-size: 51px;
+     }
     .img{
          width: 100px;
      }
