@@ -136,9 +136,6 @@ margin-left: 0;
     flex: 0 0 5%;
     max-width: 5%;
 }
-.logo{
-    
-}
 
 /* Menu variaion */
 .menu-1{
@@ -237,21 +234,21 @@ h3{
 h2{
     font-size: 33px;
 }
+.title
+{
+    font-size: 40px;
+}
+.title-1{
+    font-size: 40px;
+}
+.title-1-2{
+    font-size: 40px;
+}
 .menu
 {
     width: 100%;
     margin-bottom: 8%;
     box-shadow: none;
-}
-.menu table
-{
-    margin: auto;
-    border-spacing: 0px 0px;
-    margin-bottom: 5%;
-}
-.menu table tr td{
-    font-size: 20px;
-    text-align: left;
 }
 .s-title-flex div:nth-of-type(1){
     margin-right: 0%;
@@ -264,15 +261,21 @@ h2{
 h2{
     font-size: 33px;
 }
+.title
+{
+    font-size: 40px;
+}
+.title-1{
+    font-size: 40px;
+}
+.title-1-2{
+    font-size: 40px;
+}
 .menu table
 {
     margin: auto;
     border-spacing: 0px 0px;
     margin-bottom: 5%;
-}
-.menu table tr td{
-    font-size: 20px;
-    text-align: left;
 }
 .menu
 {
